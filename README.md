@@ -1,11 +1,16 @@
 # Mobile-Robot-Simulation
-It contains usage of ROS packages related to Localization, SLAM and Navigaiton in Simulation 
+It contains usage of ROS packages related to Localization, SLAM and Navigaiton in Simulation
+* For Build instructions and simulation results click on specific project name.
+* Tested on Ubuntu 20.04 and ROS Noetic.
 
 ## [Build_MyWorld](https://github.com/Rajat-Arora/Mobile-Robot-Simulation/tree/main/Build_MyWorld)
 * Spawning a differential drive robot in a simulation environment. 
 * Display Hello World mesaage on the terminal as soon as the World is launched.
 
+## [Go_ChaseIt](https://github.com/Rajat-Arora/Mobile-Robot-Simulation/tree/main/Go_ChaseIt)
+* Chasing a white colored ball in gazebo simulation.
+* Using camera plugin for providing camera input feed.
 
-![image](https://user-images.githubusercontent.com/97186785/168424811-a41a8ed9-09f4-41f9-93d5-03a0625c6a67.png)
-
-![image](https://user-images.githubusercontent.com/97186785/168428248-19720191-d4e8-4090-9ac1-a1fee2e55419.png)
+## [Labs](https://github.com/Rajat-Arora/Mobile-Robot-Simulation/tree/main/Labs)
+* Implementation of EKF using `robot_pose_ekf` package.
+* MCL implementation in C++.
