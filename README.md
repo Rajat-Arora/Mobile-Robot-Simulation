@@ -11,6 +11,10 @@ It contains usage of ROS packages related to Localization, SLAM and Navigaiton i
 * Chasing a white colored ball in gazebo simulation.
 * Using camera plugin for providing camera input feed.
 
+## [Where_AmI](https://github.com/Rajat-Arora/Mobile-Robot-Simulation/tree/main/Where_AmI)
+* Localizing the robot using AMCL ROS package.
+* Using turtlebot3_teleop package for teleoperation of robot.
+
 ## [Labs](https://github.com/Rajat-Arora/Mobile-Robot-Simulation/tree/main/Labs)
 * Implementation of EKF using `robot_pose_ekf` package.
 * MCL implementation in C++.
