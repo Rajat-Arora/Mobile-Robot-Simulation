@@ -5,7 +5,8 @@
 * Build instructions are similar to a typical catkin package.
 * Navigate to `Where_AmI` workspace.    
 * `catkin_make` and `source devel/setup.bash`.
-*  Use the commands `roslaunch my_robot amcl.launch` and `roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch` to run the simulation and move around using teleop and observe the robot localizing itself.
+*  Run `roslaunch my_robot amcl.launch` to run the simulation.
+*  In another terminal do `export TURTLEBOT3_MODEL=burger` and `roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch` to move around using teleop and observe the robot localizing itself.
 
 ### Results
 * Visulaization in Gazebo and Rviz.
