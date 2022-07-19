@@ -1,0 +1,10 @@
+<launch>
+
+<node name="pick_objects" pkg="pick_objects" type="pick_objects" output="screen">
+
+<param name="pick_object" value="false"/>
+<param name="place_object" value="false"/>
+
+
+</node>
+</launch>
