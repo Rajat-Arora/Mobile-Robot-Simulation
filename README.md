@@ -20,6 +20,12 @@ It contains usage of ROS packages related to Localization, SLAM and Navigaiton i
 * Using Input of RGBD Camera, Odometry and Lidar for mapping. 
 * Using turtlebot3_teleop package for teleoperation of robot.
 
+## [Home_Robot](https://github.com/Rajat-Arora/Mobile-Robot-Simulation/tree/main/Home_Robot)
+* SLAM using gmapping package.
+* Point to point navigation using move_base, amcl, map_server package. 
+* Pick/Place objects and navigating to them..
+
+
 ## [Labs](https://github.com/Rajat-Arora/Mobile-Robot-Simulation/tree/main/Labs)
 * Implementation of EKF using `robot_pose_ekf` package.
 * MCL implementation in C++.
